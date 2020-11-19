@@ -1,0 +1,41 @@
+ {
+   "list": [
+    {
+      "title": "In what episode does Mika go insane?",
+      "subtitle": "(возможно несколько вариантов ответа)",
+      "shuffle": true,
+      "answers": [
+        "1",
+        "3",
+        "5",
+        "6"
+      ],
+      "correct_answer": "1",
+      "correct_answer_explained": "нуууващееее"
+    },
+    {
+        "title": "Who voice acts Lain?",
+        "subtitle": "(возможно несколько вариантов ответа)",
+        "answers": [
+          "Kaori Shimizu",
+          "Yoko Asada",
+          "Garnier",
+          "L'OREAL"
+        ],
+        "correct_answer": "Yoko Asada",
+        "correct_answer_explained": "нуууващееее"
+    },
+      {
+        "title": "In episode 5 Mika receives a handkerchief what is written on the handkerchief?",
+        "subtitle": "(возможно несколько вариантов ответа)",
+        "answers": [
+          "Hell is full of dead and the dead shall wander",
+          "Fulfill the prophecy",
+          "Hell is other people",
+          "Call me maybe"
+        ],
+        "correct_answer": "Hell is full of dead and the dead shall wander",
+        "correct_answer_explained": "нуууващееее не так всё было"
+    }
+  ]
+}

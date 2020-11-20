@@ -89,14 +89,14 @@ const App = () => {
                 <Button
                   onClick={startQuiz}
                 >
-                  начать
+                  Start
                 </Button>
               </ButtonWrapper>
             ) : null
           }
           {(!gameStart) ? (
               <Score>
-                <span>Счёт: </span>
+                <span>Score: </span>
                 <span>
                   {score}
                 </span>
@@ -121,7 +121,7 @@ const App = () => {
               <Button
                 onClick={nextQuestion}
               >
-                Далее
+                Next
               </Button>
             </ButtonWrapper>
           }
@@ -135,7 +135,7 @@ const App = () => {
                   className='start'
                   onClick={startQuiz}
                 >
-                начать заново
+                Start Over
                 </Button>
               </ButtonWrapper>
             </React.Fragment>

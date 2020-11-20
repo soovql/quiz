@@ -1,5 +1,4 @@
 import styled, { createGlobalStyle } from 'styled-components';
-import BGImage from '../img/bg.jpg';
 import { shake, glitch } from './Animation.style';
 
 // #6c6652 green
@@ -13,19 +12,7 @@ export const GlobalStyle = createGlobalStyle`
   body {
     display: flex;
     justify-content: center;
-    background-image: url(${BGImage});
-    background-size: cover;
-
-    &:before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0 ;
-      right: 0;
-      bottom: 0;
-      background-color: blue;
-      opacity: 0.3;
-    }
+    background-color: black;
   }
 `;
 
@@ -68,16 +55,21 @@ export const QuestionTitle = styled.div`
 
 export const ButtonWrapper = styled.div`
   position: relative;
+  margin-top: 10px;
 `;
 
-export const Button = styled.button`
+export const Button = styled.div`
   position: absolute;
-  background-color: #6c6652;
+  background-color: #e60012;
   color: white;
   font-size: 40px;
+  border-radius: 5px;
+	padding: 10px 15px;
+
 
   &:hover {
-    animation: ${shake} 0.25s infinite alternate;
+    animation: ${shake} 0.01s infinite alternate;
+    background-color: #ac000d;
   }
 `;
 
